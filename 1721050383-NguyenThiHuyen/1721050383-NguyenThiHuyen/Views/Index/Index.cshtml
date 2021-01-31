@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h1> HelloWorld</h1>
+@using (Html.BeginForm())
+{
+    <label>Nhập Họ Tên</label>
+    <input type="text" name="Hoten" />
+    <label>nhập ngày sinh</label>
+    <input type="date" name="ngaysinh" />
+    <input type="submit" value="gửi Dữ liệu" />
+
+}
